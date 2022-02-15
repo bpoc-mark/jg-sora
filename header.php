@@ -30,39 +30,37 @@
 </head>
 
 <body <?php body_class(); ?>>
-    <main>
-        <div class="page__header">
-            <h1><a href="http://sora-passive.com/"><img
-                        src="<?php echo get_template_directory_uri();?>/release/image/ico_logo.svg"
-                        alt="SORA Passive design House"></a></h1>
-            <nav>
-                <dl>
-                    <dt id="menu"><img src="<?php echo get_template_directory_uri();?>/release/image/btn_menu.svg"
-                            alt="MENU"></dt>
-                    <dd id="gNav">
-                        <ul>
-                            <li><a href="<?php echo esc_url(home_url('/')); ?>">TOP<span>トップページ</span></a></li>
-                            <li><a href="topics_list.html">TOPICS<span>お知らせ</span></a></li>
-                            <li><a
-                                    href="<?php echo get_permalink(get_page_by_path('concept')) ?>">CONCEPT<span>SORAを知る</span></a>
-                            </li>
-                            <li><a
-                                    href="<?php echo get_permalink(get_page_by_path('products')) ?>">PRODUCTS<span>SORAのお家</span></a>
-                            </li>
-                            <li><a href="<?php echo get_permalink(get_page_by_path('model house')) ?>">MODEL
-                                    HOUSE<span>モデルハウス</span></a></li>
-                            <li><a
-                                    href="<?php echo get_permalink(get_page_by_path('about')) ?>">ABOUT<span>会社概要</span></a>
-                            </li>
-                        </ul>
-                        <p><img src="<?php echo get_template_directory_uri();?>/release/image/btn_close.svg"
-                                alt="CLOSE"></p>
-                    </dd>
-                    <dd id="mhButton"><a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844"
-                            target="_blank"><img
-                                src="<?php echo get_template_directory_uri();?>/release/image/btn_mh_pc.svg"
-                                alt="無人モデルハウス来場予約" class="switch"></a></dd>
-                </dl>
-            </nav>
-        </div>
-        <div class="page__content">
+    <header>
+        <h1><a href="http://sora-passive.com/"><img
+                    src="<?php echo get_template_directory_uri();?>/release/image/ico_logo.svg"
+                    alt="SORA Passive design House"></a></h1>
+        <nav>
+            <dl>
+                <dt id="menu"><img src="<?php echo get_template_directory_uri();?>/release/image/btn_menu.svg"
+                        alt="MENU">
+                </dt>
+                <dd id="gNav">
+                    <ul>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>">TOP<span>トップページ</span></a></li>
+                        <li><a href="topics_list.html">TOPICS<span>お知らせ</span></a></li>
+                        <li><a
+                                href="<?php echo get_permalink(get_page_by_path('concept')) ?>">CONCEPT<span>SORAを知る</span></a>
+                        </li>
+                        <li><a
+                                href="<?php echo get_permalink(get_page_by_path('products')) ?>">PRODUCTS<span>SORAのお家</span></a>
+                        </li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('model house')) ?>">MODEL
+                                HOUSE<span>モデルハウス</span></a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('about')) ?>">ABOUT<span>会社概要</span></a>
+                        </li>
+                    </ul>
+                    <p><img src="<?php echo get_template_directory_uri();?>/release/image/btn_close.svg" alt="CLOSE">
+                    </p>
+                </dd>
+                <dd id="mhButton"><a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844" target="_blank"><img
+                            src="<?php echo get_template_directory_uri();?>/release/image/btn_mh_pc.svg"
+                            alt="無人モデルハウス来場予約" class="switch"></a></dd>
+            </dl>
+        </nav>
+    </header>
+    <div class="page__content">

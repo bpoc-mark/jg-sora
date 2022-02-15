@@ -24,7 +24,6 @@
             <p><small>&copy;2022 garDEN Inc.</small>Created by <a href="https://jeengross.jp/"
                     target="_blank">jeengross</a></p>
         </footer>
-        </main>
         <!-- INSERT SCRIPTS HERE -->
         <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
         <!-- END OF SCRIPTS -->

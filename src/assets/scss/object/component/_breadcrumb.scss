@@ -1,0 +1,38 @@
+.breadcrumb {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width: 100%;
+	max-width: 1130px;
+	padding: 20px;
+	margin: 0 auto;
+	a {
+		transition: color 0.2s ease-out;
+		&:hover {
+			color: var(--color-02);
+		}
+	}
+	li {
+		font-size: 14px;
+		font-weight: 200;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		line-height: 1.4;
+		margin-right: 1em;
+		position: relative;
+		overflow: hidden;
+		& + li {
+			padding-left: 2em;
+			&::before {
+				display: block;
+				content: "＞";
+				margin-right: inherit;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
+	}
+}
