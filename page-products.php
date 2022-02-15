@@ -278,7 +278,7 @@
                     <ul class="flex mt40">
                         <li class="setAnime inView">
                             <figure>
-                                <img src="<?php echo get_template_directory_uri();?>release/image/products/img_specs01.jpg"
+                                <img src="<?php echo get_template_directory_uri();?>/release/image/products/img_specs01.jpg"
                                     alt="">
                                 <figcaption>3層フローリング</figcaption>
                             </figure>
@@ -286,7 +286,7 @@
                         </li>
                         <li class="setAnime inView animation-delay500">
                             <figure>
-                                <img src="<?php echo get_template_directory_uri();?>release/image/products/img_specs02.jpg"
+                                <img src="<?php echo get_template_directory_uri();?>/release/image/products/img_specs02.jpg"
                                     alt="">
                                 <figcaption>各メーカーセレクト可能<br>設備パックプラン</figcaption>
                             </figure>
@@ -294,7 +294,7 @@
                         </li>
                         <li class="setAnime inView animation-delay1000">
                             <figure>
-                                <img src="<?php echo get_template_directory_uri();?>release/image/products/img_specs03.jpg"
+                                <img src="<?php echo get_template_directory_uri();?>/release/image/products/img_specs03.jpg"
                                     alt="">
                                 <figcaption>天井壁ビニールクロス仕上げ</figcaption>
                             </figure>
