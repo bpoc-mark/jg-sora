@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .bedbfec3-d8da-4a9e-a905-a5075455e427 {
+        fill: #df8400;
+      }
+    </style>
+  </defs>
+  <g id="b070ddda-0793-4ebd-b091-9d04b8ea4580" data-name="レイヤー 2">
+    <g id="b77ac49f-6e0d-40b3-a1ab-b90b3609372d" data-name="レイヤー 1">
+      <g>
+        <polygon class="bedbfec3-d8da-4a9e-a905-a5075455e427" points="2 2 11 2 11 0 0 0 0 11 2 11 2 2"/>
+        <polygon class="bedbfec3-d8da-4a9e-a905-a5075455e427" points="21 0 21 2 30 2 30 11 32 11 32 0 21 0"/>
+        <polygon class="bedbfec3-d8da-4a9e-a905-a5075455e427" points="30 30 21 30 21 32 32 32 32 21 30 21 30 30"/>
+        <polygon class="bedbfec3-d8da-4a9e-a905-a5075455e427" points="2 21 0 21 0 32 11 32 11 30 2 30 2 21"/>
+        <path class="bedbfec3-d8da-4a9e-a905-a5075455e427" d="M21.539,22.535a1,1,0,0,0,.706-1.707l-1.356-1.354a6.015,6.015,0,1,0-1.414,1.415l1.358,1.354A.994.994,0,0,0,21.539,22.535ZM13.171,18.83A4.006,4.006,0,0,1,16,12h0a3.968,3.968,0,0,1,2.829,1.176l0,0a3.991,3.991,0,0,1,0,5.655A4.094,4.094,0,0,1,13.171,18.83Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
