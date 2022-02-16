@@ -42,7 +42,9 @@
                 <dd id="gNav">
                     <ul>
                         <li><a href="<?php echo esc_url(home_url('/')); ?>">TOP<span>トップページ</span></a></li>
-                        <li><a href="topics_list.html">TOPICS<span>お知らせ</span></a></li>
+                        <li><a
+                                href="<?php echo get_permalink(get_page_by_path('topics list')) ?>">TOPICS<span>お知らせ</span></a>
+                        </li>
                         <li><a
                                 href="<?php echo get_permalink(get_page_by_path('concept')) ?>">CONCEPT<span>SORAを知る</span></a>
                         </li>
