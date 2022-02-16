@@ -15,7 +15,7 @@
             $args = array(
                 'post_type' => 'POST',
                 'post_status'=>'publish',
-                'posts_per_page' => 1,
+                'posts_per_page' => 10,
                 'paged' => $paged,
             );
             
@@ -35,26 +35,6 @@
                 </ul>
                 <div class="pagination-list">
                     <?php echo easy_wp_pagenavigation($the_query); ?>
-                    <ul class="pagination-list-prev">
-                        <li><a href="topics_list.html">最初へ</a></li>
-                        <li><a href="topics_list.html">PREV</a></li>
-                    </ul>
-                    <ul class="pagination-list-list">
-                        <li class="current-page"><a href="topics_list.html">1</a></li>
-                        <li><a href="topics_list.html">2</a></li>
-                        <li><a href="topics_list.html">3</a></li>
-                        <li><a href="topics_list.html">4</a></li>
-                        <li><a href="topics_list.html">5</a></li>
-                        <li><a href="topics_list.html">6</a></li>
-                        <li><a href="topics_list.html">7</a></li>
-                        <li><a href="topics_list.html">8</a></li>
-                        <li><a href="topics_list.html">9</a></li>
-                        <li><a href="topics_list.html">10</a>…</li>
-                    </ul>
-                    <ul class="pagination-list-next">
-                        <li><a href="topics_list.html">NEXT</a></li>
-                        <li><a href="topics_list.html">最後へ</a></li>
-                    </ul>
                 </div>
             </div>
         </section>

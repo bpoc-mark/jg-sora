@@ -2615,3 +2615,70 @@ footer > p a {
 		margin-right: 0;
 	}
 }
+.easy-wp-page-navigation {
+	width: unset;
+	margin: 0;
+}
+.first-page a,
+.last-page a {
+	color: #000 !important;
+	align-items: center;
+	width: 63px;
+	border: 1px solid #000;
+	line-height: normal;
+	&:hover {
+		color: #fff !important;
+		background-color: #000;
+		opacity: 0.5;
+	}
+}
+.prev {
+	border: none !important;
+	color: #000 !important;
+	width: 103px !important;
+	text-align: left !important;
+	padding: 0 0 0 55px !important;
+	&:hover {
+		background: none !important;
+		opacity: 0.5 !important;
+	}
+}
+.next {
+	border: none !important;
+	color: #000 !important;
+	padding: 0 55px 0 0 !important;
+	text-align: left;
+	&:hover {
+		background: none !important;
+		opacity: 0.5 !important;
+	}
+}
+.page-numbers {
+	border: none !important;
+	color: #000 !important;
+	&:hover {
+		background: none !important;
+		opacity: 0.5 !important;
+	}
+}
+.current {
+	background: none !important;
+}
+
+.first-page-link,
+.last-page-link {
+	padding: 0 !important;
+	&:hover {
+		background: #000 !important;
+		opacity: 0.5 !important;
+	}
+}
+ul.easy-wp-page-nav li {
+	display: flex !important;
+	&:nth-child(2) {
+		padding: 0 20px 0 0;
+	}
+	&:nth-child(6) {
+		padding: 0 0 0 20px;
+	}
+}
