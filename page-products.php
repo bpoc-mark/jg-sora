@@ -341,7 +341,7 @@
                             <p><a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844"
                                     target="_blank">SORAモデルハウス内覧<span class="anchor-vm">view more</span></a></p>
                             <a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844" target="_blank"><img
-                                    src="<?php echo get_template_directory_uri();?>release/image/products/qr_reserve.png"
+                                    src="<?php echo get_template_directory_uri();?>/release/image/products/qr_reserve.png"
                                     alt=""></a>
                         </li>
                         <li class="setAnime inView">
@@ -349,7 +349,7 @@
                             <p><a href="https://www.gar-denf.jp/" target="_blank">garDEN不動産にて<br>商品のご説明・お打合せ<span
                                         class="anchor-vm">view more</span></a></p>
                             <a href="https://www.gar-denf.jp/" target="_blank"><img
-                                    src="<?php echo get_template_directory_uri();?>release/image/products/qr_gaDEN.png"
+                                    src="<?php echo get_template_directory_uri();?>/release/image/products/qr_gaDEN.png"
                                     alt=""></a>
                         </li>
                         <li class="setAnime inView">

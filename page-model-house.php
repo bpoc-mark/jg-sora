@@ -93,9 +93,11 @@
                         <h3><img src="<?php echo get_template_directory_uri();?>/release/image/model_house/ttl_03.svg"
                                 alt="木造NK工法で造られた吹き抜けのある空間を体感できます！" class="img-c"></h3>
                         <ul>
-                            <li class="anchor-03"><a href="concept.html#performance"><span>NK
+                            <li class="anchor-03"><a
+                                    href="<?php echo get_permalink(get_page_by_path('concept')) ?>#performance"><span>NK
                                         CONSTRUCTION</span>木造NK工法とは？</a></li>
-                            <li class="anchor-03"><a href="products.html#specs"><span>PASSIVE
+                            <li class="anchor-03"><a
+                                    href="<?php echo get_permalink(get_page_by_path('products')) ?>#specs"><span>PASSIVE
                                         DESIGN</span>パッシブデザインとは？</a></li>
                             <li class="anchor-03 anchor-03-color"><a
                                     href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844"

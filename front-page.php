@@ -136,7 +136,7 @@
                 <p class="text-align-j mt30">夢の一戸建てを諦めているあなたに。<br>京都の小さな土地に、費用を抑えたちょうどいい広さの住まいを。</p>
                 <ul class="mt40">
                     <li class="setAnime inView">
-                        <a href="concept.html">
+                        <a href="<?php echo get_permalink(get_page_by_path('concept')) ?>">
                             <figure><img
                                     src="<?php echo get_template_directory_uri();?>/release/image/top/img_concept01.jpg"
                                     alt=""></figure>
@@ -145,7 +145,7 @@
                         </a>
                     </li>
                     <li class="setAnime inView animation-delay500">
-                        <a href="concept.html#performance">
+                        <a href="<?php echo get_permalink(get_page_by_path('concept')) ?>#performance">
                             <figure><img
                                     src="<?php echo get_template_directory_uri();?>/release/image/top/img_concept02.jpg"
                                     alt=""></figure>
@@ -154,7 +154,8 @@
                         </a>
                     </li>
                 </ul>
-                <p id="topConceptAnchor" class="setAnime inView"><a href="concept.html#conceptBottom"
+                <p id="topConceptAnchor" class="setAnime inView"><a
+                        href="<?php echo get_permalink(get_page_by_path('concept')) ?>#conceptBottom"
                         class="anchor-01"><span>京都の狭小地に特化した<br class="sp">カタチの住まい</span><span class="anchor-vm">view
                             more</span></a></p>
             </div>
@@ -164,17 +165,22 @@
                 <div class="setAnime inView animation-delay500">
                     <h2 class="title-02"><span>PRODUCTS</span><span>SORAのお家</span></h2>
                     <p class="mt40">陽だまりにそよ風がまう<br>3階建て吹き抜けのある家</p>
-                    <a href="products.html" class="mt40"><span class="anchor-vm">view more</span></a>
+                    <a href="<?php echo get_permalink(get_page_by_path('products')) ?>" class="mt40"><span
+                            class="anchor-vm">view more</span></a>
                 </div>
                 <figure class="setAnime inViewSp"><img
                         src="<?php echo get_template_directory_uri();?>/release/image/top/img_products.jpg" alt="">
                 </figure>
                 <ul class="anchor-02">
-                    <li class="setAnime inView"><a href="products.html#layout"><span>LAYOUT</span>間取り</a></li>
+                    <li class="setAnime inView"><a
+                            href="<?php echo get_permalink(get_page_by_path('products')) ?>#layout"><span>LAYOUT</span>間取り</a>
+                    </li>
                     <li class="setAnime inView animation-delay500"><a
-                            href="products.html#specs"><span>SPECS</span>建築仕様</a></li>
+                            href="<?php echo get_permalink(get_page_by_path('products')) ?>#specs"><span>SPECS</span>建築仕様</a>
+                    </li>
                     <li class="setAnime inView animation-delay1000"><a
-                            href="products.html#flow"><span>FLOW</span>SORAのお家が建つまで</a></li>
+                            href="<?php echo get_permalink(get_page_by_path('products')) ?>#flow"><span>FLOW</span>SORAのお家が建つまで</a>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -183,7 +189,8 @@
                 <div class="setAnime inViewSp">
                     <h2 class="title-02"><span>MODEL HOUSE</span><span>SORAの性能と心地良さを体感</span></h2>
                     <p class="mt40">非対面で自由に見学<br>無人モデルハウス</p>
-                    <a href="model_house.html" class="mt40"><span class="anchor-vm">view more</span></a>
+                    <a href="<?php echo get_permalink(get_page_by_path('model house')) ?>" class="mt40"><span
+                            class="anchor-vm">view more</span></a>
                 </div>
                 <div class="swiper-container setAnime inView animation-delay500">
                     <ul class="swiper-wrapper">

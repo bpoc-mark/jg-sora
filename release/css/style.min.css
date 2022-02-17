@@ -7,7 +7,7 @@ a{color:#000;text-decoration:none}
 a:hover,a:visited,a:link,a:active{text-decoration:none}
 [tabindex="-1"]:focus{outline:0 !important}
 [data-layout="wide"]{width:100%;text-align:center}
-img{vertical-align:middle;border-style:none;max-width:100%;max-height:100%}
+img{vertical-align:middle;border-style:none;max-width:100%}
 svg{overflow:hidden;vertical-align:middle}
 button,[type="button"],[type="reset"],[type="submit"]{-webkit-appearance:button;background:0;color:inherit;border:0;padding:0;font:inherit;cursor:pointer;outline:inherit}
 button,input[type="submit"],input[type="reset"]{background:0;color:inherit;border:0;padding:0;font:inherit;cursor:pointer;outline:inherit}
@@ -888,7 +888,7 @@ main{padding-bottom:130px;position:relative;overflow:hidden}
 #flow li p span{display:block;font-size:14px}
 #flow li .anchor-vm{margin:0 0 0 auto}
 #flow li>a{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;width:90px;position:relative}
-#flow li>a img{display:block;width:calc(100% - 10px);border:1px solid #c8c8c8;position:absolute;right:0;bottom:0;-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out}
+#flow li a img{display:block;width:calc(100% - 10px);border:1px solid #c8c8c8;position:absolute;right:0;bottom:0;-webkit-transition:opacity .2s ease-out;transition:opacity .2s ease-out}
 #flow li>a:hover img{opacity:.5}
 #topModelHouseWrapper{max-width:1400px;margin:0 auto 0}
 #topModelHouse{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end;max-width:1025px;margin:130px 0 0 auto}
