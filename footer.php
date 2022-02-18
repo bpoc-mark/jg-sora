@@ -14,11 +14,11 @@
                 </dl>
             </div>
             <ul id="footerNavi">
-                <li><a href="topics_list.html">お知らせ</a></li>
-                <li><a href="concept.html">SORAを知る</a></li>
-                <li><a href="products.html">SORAのお家</a></li>
-                <li><a href="model_house.html">モデルハウス</a></li>
-                <li><a href="about.html">会社概要</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('topics list')) ?>">お知らせ</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('concept')) ?>">SORAを知る</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('products')) ?>">SORAのお家</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('model house')) ?>">モデルハウス</a></li>
+                <li><a href="<?php echo get_permalink(get_page_by_path('about')) ?>">会社概要</a></li>
                 <li><a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844" target="_blank">来場予約</a></li>
             </ul>
             <p><small>&copy;2022 garDEN Inc.</small>Created by <a href="https://jeengross.jp/"

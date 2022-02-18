@@ -2,8 +2,7 @@
 <div class="concept">
     <main>
         <ul class="breadcrumb">
-            <li><a href="./">トップページ</a></li>
-            <li>CONCEPT SORAを知る</li>
+            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
         </ul>
         <section>
             <h2 class="title-01"><span>CONCEPT</span>SORAを知る</h2>
@@ -125,7 +124,9 @@
                         src="<?php echo get_template_directory_uri();?>/release/image/concept/img_conceptBottom02.jpg"
                         alt=""></figure>
             </section>
-            <p class="anchor-03 setAnime inView"><a href="products.html"><span>PRODUCTS</span>SORAのお家を詳しく見る</a></p>
+            <p class="anchor-03 setAnime inView"><a
+                    href="<?php echo get_permalink(get_page_by_path('products')) ?>"><span>PRODUCTS</span>SORAのお家を詳しく見る</a>
+            </p>
         </section>
         <div id="contentsBottom" class="setAnime inView">
             <a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844"

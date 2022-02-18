@@ -2,8 +2,7 @@
 <div class="products">
     <main>
         <ul class="breadcrumb">
-            <li><a href="./">トップページ</a></li>
-            <li>PRODUCTS SORAのお家</li>
+            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
         </ul>
         <section>
             <h2 class="title-01"><span>PRODUCTS</span>SORAのお家</h2>
@@ -19,7 +18,9 @@
                     <dt class="setAnime"><span>1F</span>1階間取り</dt>
                     <dd class="setAnime">
                         <div>
-                            <figure><img src="img/products/layout_1F.svg" alt=""></figure>
+                            <figure><img
+                                    src="<?php echo get_template_directory_uri();?>/release/image/products/layout_1F.svg"
+                                    alt=""></figure>
                             <ul class="layout-1F">
                                 <li><img src="<?php echo get_template_directory_uri();?>/release/image/products/img_loupe.svg"
                                         alt="詳細"></li>
@@ -306,7 +307,8 @@
                         <h4 class="title-05 setAnime inView">基本構造</h4>
                         <p class="text-align-c-j mt40 setAnime inView">木造NK工法/耐震等級3/高気密/高断熱/定期点検対象/10年保証/基礎一体打</p>
                         <p class="anchor-03 mt40 setAnime inView"><a
-                                href="concept.html"><span>CONCEPT</span>詳しい説明はこちらから</a></p>
+                                href="<?php echo get_permalink(get_page_by_path('concept')) ?>"><span>CONCEPT</span>詳しい説明はこちらから</a>
+                        </p>
                     </div>
                 </section>
                 <section id="gallery">

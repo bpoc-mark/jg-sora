@@ -47,6 +47,14 @@ $(function () {
 	$("#menu").on("click", function () {
 		$("#gNav").fadeIn(400);
 	});
+	$("#menu-top").on("click", function () {
+		$("#gNav-top").fadeIn(400);
+	});
+	$("#gNav-top")
+		.children(".close")
+		.on("click", function () {
+			$("#gNav-top").fadeOut(400);
+		});
 	$("#gNav")
 		.children("p")
 		.on("click", function () {

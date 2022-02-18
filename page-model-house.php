@@ -2,8 +2,7 @@
 <div class="model-house">
     <main>
         <ul class="breadcrumb">
-            <li><a href="./">トップページ</a></li>
-            <li>MODEL HOUSE モデルハウス</li>
+            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
         </ul>
         <section>
             <h2 class="title-01"><span>MODEL HOUSE</span>モデルハウス</h2>

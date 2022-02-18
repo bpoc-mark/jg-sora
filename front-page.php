@@ -4,17 +4,6 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="Keywords" content="">
-    <meta name="Description" content="京都市で設計施工を行う工務店 garDEN のデザイン住宅">
-    <meta name="author" content="garDEN株式会社">
-    <meta name="format-detection" content="telephone=no">
-    <meta property="og:site_name" content="SORA Passive design House">
-    <meta property="og:title" content="SORA｜京都市のデザイン住宅">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="http://sora-passive.com/">
-    <meta property="og:description" content="">
-    <meta property="og:image" content="img/fbimage.jpg">
-    <title>SORA｜京都市のデザイン住宅</title>
     <link rel="canonical" href="http://sora-passive.com/">
     <link rel="stylesheet" href="css/default.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.7/swiper-bundle.css"
@@ -73,8 +62,30 @@
                         src="<?php echo get_template_directory_uri();?>/release/image/top/btn_scroll.svg"
                         alt="scroll"></a></p>
             <dl>
-                <dt><img src="<?php echo get_template_directory_uri();?>/release/image/btn_menu.svg" alt="MENU">
+                <dt id="menu-top"><img src="<?php echo get_template_directory_uri();?>/release/image/btn_menu.svg"
+                        alt="MENU">
                 </dt>
+                <dd id="gNav-top">
+                    <ul>
+                        <li><a href="<?php echo esc_url(home_url('/')); ?>">TOP<span>トップページ</span></a></li>
+                        <li><a
+                                href="<?php echo get_permalink(get_page_by_path('topics list')) ?>">TOPICS<span>お知らせ</span></a>
+                        </li>
+                        <li><a
+                                href="<?php echo get_permalink(get_page_by_path('concept')) ?>">CONCEPT<span>SORAを知る</span></a>
+                        </li>
+                        <li><a
+                                href="<?php echo get_permalink(get_page_by_path('products')) ?>">PRODUCTS<span>SORAのお家</span></a>
+                        </li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('model house')) ?>">MODEL
+                                HOUSE<span>モデルハウス</span></a></li>
+                        <li><a href="<?php echo get_permalink(get_page_by_path('about')) ?>">ABOUT<span>会社概要</span></a>
+                        </li>
+                    </ul>
+                    <div class="close"><img src="<?php echo get_template_directory_uri();?>/release/image/btn_close.svg"
+                            alt="CLOSE">
+                    </div>
+                </dd>
                 <dd>
                     <ul>
                         <li><a

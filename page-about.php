@@ -3,8 +3,7 @@
     <main>
         <section>
             <ul class="breadcrumb">
-                <li><a href="./">トップページ</a></li>
-                <li>ABOUT 会社概要</li>
+                <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
             </ul>
             <h2 class="title-01"><span>ABOUT</span>会社概要</h2>
             <div class="box-size size-700">

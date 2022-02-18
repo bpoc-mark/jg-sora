@@ -2,9 +2,7 @@
 <div class="topics">
     <main>
         <ul class="breadcrumb">
-            <li><a href="<?php echo esc_url(home_url('/')); ?>">トップページ</a></li>
-            <li><a href="topics_list.html">TOPICS お知らせ</a></li>
-            <li>タイトル名が入ります。タイトル名が入ります。タイトル名が入ります。</li>
+            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
         </ul>
         <section>
             <h2 class="title-01"><span>TOPICS</span>お知らせ</h2>

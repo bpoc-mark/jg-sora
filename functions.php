@@ -99,7 +99,7 @@ add_filter( 'get_the_excerpt', 'new_excerpt_more' );
 // Add excerpt length
 
 function new_excerpt_length($length) {
-    return 100;
+    return 160;
 }
 add_filter('excerpt_length', 'new_excerpt_length');
 

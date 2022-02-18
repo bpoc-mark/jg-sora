@@ -2,8 +2,7 @@
 <div class="topics">
     <main>
         <ul class="breadcrumb">
-            <li><a href="./">トップページ</a></li>
-            <li>TOPICS お知らせ</li>
+            <?php if( function_exists( 'aioseo_breadcrumbs' ) ) aioseo_breadcrumbs(); ?>
         </ul>
         <section>
             <h2 class="title-01"><span>TOPICS</span>お知らせ</h2>
