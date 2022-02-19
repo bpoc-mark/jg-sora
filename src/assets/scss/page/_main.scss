@@ -2733,6 +2733,11 @@ footer > p a {
 		width: unset;
 	}
 }
+.last-page a {
+	@include is-max(767px) {
+		width: 70px;
+	}
+}
 .first-page,
 .last-page {
 	border: 1px solid #000;
@@ -2792,7 +2797,7 @@ footer > p a {
 	}
 }
 ul.easy-wp-page-nav {
-	display: flex !important;
+	display: flex;
 	flex-wrap: wrap;
 	.prev {
 		margin: 0 20px 0 0;
@@ -2816,7 +2821,6 @@ ul.easy-wp-page-nav {
 			margin-top: 0;
 		}
 		.last-page {
-			width: 20%;
 			order: 2;
 			margin-top: 0;
 		}

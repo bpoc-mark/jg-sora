@@ -86,3 +86,29 @@ $(function () {
 			$(this).parents("li").fadeOut(400);
 		});
 });
+
+$(window).on("load resize", function () {
+	var w = $(window).width();
+	if (w <= 767) {
+		$(function () {
+			$(".easy-wp-page-nav").each(function () {
+				if ($(this).find("li").hasClass("first-page")) {
+				} else {
+					$(this).prepend('<li class="test1"></li>');
+					$(this).prepend('<li class="test2"></li>');
+					$(this).css({
+						"flex-wrap": "unset",
+						"margin-top": "0",
+					});
+					$(".easy-wp-page-nav li:not(:nth-child(1),:nth-child(2))").css({
+						margin: "0",
+						order: "unset",
+					});
+					$(".easy-wp-page-nav li:nth-child(7)").css({
+						width: "35%",
+					});
+				}
+			});
+		});
+	}
+});

@@ -30,11 +30,11 @@
                         </a>
                     </li>
                     <?php endwhile; ?>
-                    <?php endif; ?>
                 </ul>
                 <div class="pagination-list">
                     <?php echo easy_wp_pagenavigation($the_query); ?>
                 </div>
+                <?php endif; ?>
             </div>
         </section>
         <div id="contentsBottom">
