@@ -79,24 +79,41 @@ $(window).on("load resize", function () {
   var w = $(window).width();
 
   if (w <= 767) {
+    //function for first page
     $(function () {
       $(".easy-wp-page-nav").each(function () {
-        if ($(this).find("li").hasClass("first-page")) {} else {
+        if ($(this).find("li").hasClass("first-page")) {
+          $(this).find("li").hasClass("dots").css({
+            display: "block"
+          });
+        } else {
           $(this).prepend('<li class="test1"></li>');
           $(this).prepend('<li class="test2"></li>');
-          $(this).css({
-            "flex-wrap": "unset",
-            "margin-top": "0"
+          $(".easy-wp-page-nav li:nth-last-child(2)").css({
+            width: "45%",
+            display: "flex",
+            "justify-content": "flex-end"
           });
-          $(".easy-wp-page-nav li:not(:nth-child(1),:nth-child(2))").css({
-            margin: "0",
-            order: "unset"
-          });
-          $(".easy-wp-page-nav li:nth-child(7)").css({
-            width: "35%"
+        }
+      });
+    }); //function for last page
+
+    $(function () {
+      $(".easy-wp-page-nav").each(function () {
+        if ($(this).find("li").hasClass("last-page")) {} else {
+          $("ul.easy-wp-page-nav li:nth-child(2)").css({
+            width: "45%"
           });
         }
       });
     });
   }
+});
+$(function () {
+  $(".easy-wp-page-nav").each(function () {
+    if ($(this).find("li").hasClass("last-page")) {} else {
+      $(this).append("<li class='test3'></li>");
+      $(this).append("<li class='test4'></li>");
+    }
+  });
 });

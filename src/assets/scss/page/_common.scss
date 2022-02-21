@@ -636,10 +636,14 @@ a:hover .anchor-vm::before {
 			padding-left: 8px;
 		}
 	}
-	&:first-child,
-	&:last-child,
-	&:nth-child(6) {
+	&:nth-last-child(3) {
 		a {
+			&::after {
+				display: inline-block;
+				content: "…";
+			}
+		}
+		.current {
 			&::after {
 				display: inline-block;
 				content: "…";

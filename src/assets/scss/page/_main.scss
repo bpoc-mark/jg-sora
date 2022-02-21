@@ -2799,6 +2799,9 @@ footer > p a {
 ul.easy-wp-page-nav {
 	display: flex;
 	flex-wrap: wrap;
+	// .dots {
+	// 	display: none;
+	// }
 	.prev {
 		margin: 0 20px 0 0;
 		@include is-max(767px) {
@@ -2830,7 +2833,7 @@ ul.easy-wp-page-nav {
 				order: 1;
 				margin-top: 0;
 			}
-			&:nth-child(7) {
+			&:nth-last-child(2) {
 				width: 27%;
 				order: 2;
 				margin-top: 0;
