@@ -131,7 +131,7 @@
                                     alt=""></figure>
                             <dl>
                                 <dt>洗面脱衣室</dt>
-                                <dd>洗面カウンターの場所を広く取り、洗濯機を背面に設置しています。<br>家事がラクになるよう、ガス衣類乾燥機「幹太くん」は標準設置です。</dd>
+                                <dd>洗面カウンターの場所を広く取り、洗濯機を背面に設置しています。<br>家事がラクになるよう、ガス衣類乾燥機「乾太くん」はオプションで設置可能です</dd>
                             </dl>
                         </div>
                         <p class="layoutB-close"><img
@@ -145,7 +145,7 @@
                                     src="<?php echo get_template_directory_uri();?>/release/image/products/img_1F_05.jpg"
                                     alt=""></figure>
                             <dl>
-                                <dt>1階寝室</dt>
+                                <dt>寝室</dt>
                                 <dd>寝るだけの部屋に広くスペースを取りません。これにより収納やLDKに広さの確保が可能となります。</dd>
                             </dl>
                         </div>
@@ -160,8 +160,8 @@
                                     src="<?php echo get_template_directory_uri();?>/release/image/products/img_2F_01.jpg"
                                     alt=""></figure>
                             <dl>
-                                <dt>2階LDK</dt>
-                                <dd>LDKの広さはは機能的に十分かつ邸宅でも採用されているサイズ。吹き抜けがあるので、更に広く感じられます。</dd>
+                                <dt>LDK</dt>
+                                <dd>LDK の広さは機能的に十分かつ注文住宅でも採用されているサイズ。吹き抜けがあるので、更に広く感じられます。</dd>
                             </dl>
                         </div>
                         <p class="layoutB-close"><img
@@ -175,8 +175,8 @@
                                     src="<?php echo get_template_directory_uri();?>/release/image/products/img_2F_02.jpg"
                                     alt=""></figure>
                             <dl>
-                                <dt>2階LDK透明壁</dt>
-                                <dd>階段の間仕切りを壁ではなく、ポリカーボネート板で間仕切ることも可能。視線の抜けで拡がりを感じるあしらいです。</dd>
+                                <dt>クリア間仕切り</dt>
+                                <dd>階段との境界を透明なポリカーボネート板で間仕切ることも可能。視線の抜けで広がりを感じるあしらいです。</dd>
                             </dl>
                         </div>
                         <p class="layoutB-close"><img
@@ -190,8 +190,8 @@
                                     src="<?php echo get_template_directory_uri();?>/release/image/products/img_2F_03.jpg"
                                     alt=""></figure>
                             <dl>
-                                <dt>2階スタディスペース</dt>
-                                <dd>2、3人で同時使用できる作業場です。LDKと同フロアにあることで、行きやすく、お子様のお勉強にもピッタリです。</dd>
+                                <dt>スタディスペース</dt>
+                                <dd>2〜3人で同時使用できる作業場です。LDKと同階なのでアクセスしやすく、お子様のお勉強や在宅ワークにもピッタリです。</dd>
                             </dl>
                         </div>
                         <p class="layoutB-close"><img
@@ -205,9 +205,10 @@
                                     src="<?php echo get_template_directory_uri();?>/release/image/products/img_3F_01.jpg"
                                     alt=""></figure>
                             <dl>
-                                <dt>3階フリースペース・吹き抜け・キャットウォーク</dt>
-                                <dd>LDKと繋がる贅沢なこの空間は、ピアノを置いたり、ワークスペースにしてみたり、フレキシブルに使っていただくスペースです。<br>この空間があることで、コンパクトなLDKがとても広く感じるように立体的に造られています。
-                                </dd>
+                                <dt>フリースペース・吹き抜け</dt>
+                                <dd>
+                                    LDKと繋がる贅沢なこの空間は、ピアノを置いたり、ワークスペースにしてみたり、フレキシブルに使っていただけます。<br>
+                                    この空間があることで、コンパクトなLDKがとても広く感じるように立体的に造られています。</dd>
                             </dl>
                         </div>
                         <p class="layoutB-close"><img
@@ -221,7 +222,7 @@
                                     src="<?php echo get_template_directory_uri();?>/release/image/products/img_3F_02.jpg"
                                     alt=""></figure>
                             <dl>
-                                <dt>3階子供部屋</dt>
+                                <dt>子供部屋</dt>
                                 <dd>引き戸が2つあるので、お子様が年頃になったら2部屋に分けることができます。<br>ロフトベッドを置くなど空間を有効活用できるよう、屋根傾斜に合わせて高い天井でおつくりしています。
                                 </dd>
                             </dl>
@@ -238,7 +239,7 @@
                                     alt=""></figure>
                             <dl>
                                 <dt>屋根裏収納</dt>
-                                <dd>3階から階段で上り下りできる空間です。<br>4.5帖分あるので、年に数回だけしか使用しないものを保管しておくのに十分な広さです。</dd>
+                                <dd>3階から階段でアクセスでき、便利です。<br>4.5帖分あるので、普段使わないものや季節用品を保管しておくのに十分な広さです。</dd>
                             </dl>
                         </div>
                         <p class="layoutB-close"><img
@@ -340,9 +341,9 @@
                     <ol>
                         <li class="setAnime inView">
                             <span>01</span>
-                            <p><a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844"
+                            <p><a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19666"
                                     target="_blank">SORAモデルハウス内覧<span class="anchor-vm">view more</span></a></p>
-                            <a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844" target="_blank"><img
+                            <a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19666" target="_blank"><img
                                     src="<?php echo get_template_directory_uri();?>/release/image/products/qr_reserve.png"
                                     alt=""></a>
                         </li>
@@ -403,7 +404,7 @@
             </section>
         </section>
         <div id="contentsBottom" class="setAnime inView">
-            <a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844"
+            <a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19666"
                 target="_blank">モデルハウスへの<br>予約はこちらから<span>来場予約</span></a>
         </div>
     </main>

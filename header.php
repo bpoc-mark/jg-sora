@@ -59,7 +59,7 @@
                     <p><img src="<?php echo get_template_directory_uri();?>/release/image/btn_close.svg" alt="CLOSE">
                     </p>
                 </dd>
-                <dd id="mhButton"><a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844" target="_blank"><img
+                <dd id="mhButton"><a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19666" target="_blank"><img
                             src="<?php echo get_template_directory_uri();?>/release/image/btn_mh_pc.svg"
                             alt="無人モデルハウス来場予約" class="switch"></a></dd>
             </dl>

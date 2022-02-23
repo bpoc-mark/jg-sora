@@ -36,7 +36,7 @@
             </div>
         </section>
         <div id="contentsBottom" class="setAnime inView">
-            <a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19844"
+            <a href="https://www.ie-miru.jp/cms/yoyaku/garden/events/19666"
                 target="_blank">モデルハウスへの<br>予約はこちらから<span>来場予約</span></a>
         </div>
     </main>

@@ -2735,7 +2735,10 @@ footer > p a {
 }
 .last-page a {
 	@include is-max(767px) {
-		width: 70px;
+		width: unset;
+	}
+	@include is-max(325px) {
+		width: 54px;
 	}
 }
 .first-page,
@@ -2799,13 +2802,13 @@ footer > p a {
 ul.easy-wp-page-nav {
 	display: flex;
 	flex-wrap: wrap;
-	// .dots {
-	// 	display: none;
-	// }
 	.prev {
 		margin: 0 20px 0 0;
 		@include is-max(767px) {
 			padding-left: 35px !important;
+		}
+		@include is-max(380px) {
+			margin: 0;
 		}
 	}
 	.next {
@@ -2826,30 +2829,46 @@ ul.easy-wp-page-nav {
 		.last-page {
 			order: 2;
 			margin-top: 0;
+			width: 20%;
 		}
 		li {
+			@include is-max(479px) {
+				margin: 20px 2px 0 0;
+			}
 			&:nth-child(2) {
-				width: 27%;
+				width: 28%;
 				order: 1;
 				margin-top: 0;
+				@include is-max(480px) {
+					width: 27%;
+				}
+				@include is-max(466px) {
+					width: 28%;
+				}
 			}
 			&:nth-last-child(2) {
-				width: 27%;
+				width: 28%;
 				order: 2;
 				margin-top: 0;
+				display: flex;
+				justify-content: flex-end;
+				@include is-max(480px) {
+					width: 30%;
+				}
+				@include is-max(465px) {
+					width: 28%;
+				}
 			}
 			&:not(:first-child, :nth-child(2), :nth-child(7), :last-child) {
 				order: 3;
 				justify-content: unset;
-			}
-			@include is-max(479px) {
-				margin: 20px 2px 0 0;
+				margin-top: 20px;
 			}
 		}
 	}
 }
 .easy-wp-page-navigation .page-numbers {
-	padding: 5px 0px 5px 4px;
+	padding: 5px 8px 5px 4px;
 }
 .breadcrumb .aioseo-breadcrumbs span:nth-child(1) {
 	margin-right: 1em;
@@ -2861,4 +2880,12 @@ ul.easy-wp-page-nav {
 }
 .flex-unset {
 	flex-wrap: unset !important;
+}
+.add-after {
+	a {
+		&::after {
+			display: inline-block;
+			content: "…";
+		}
+	}
 }
