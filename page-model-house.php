@@ -146,7 +146,7 @@
                 <h3 class="title-03 setAnime inView"><span>FAQ</span>よくある質問</h3>
                 <dl class="box-size box-side size-560">
                     <dt class="setAnime inView"><span>Q.01</span>どのくらいの時間見学できますか？</dt>
-                    <dd class="setAnime inView">見学時間は1時間半となります。次の予約の関係上、見学時間終了の10分前にはご退出頂けますよう、ご協力をよろしくお願いします。</dd>
+                    <dd class="setAnime inView">見学時間は1時間です。終了時間までにご退場頂けますよう、ご協力よろしくお願いします。</dd>
                     <dt class="setAnime inView"><span>Q.02</span>駐車場はありますか？</dt>
                     <dd class="setAnime inView">駐車場はございません。近隣のコインパーキングをご利用ください。</dd>
                     <dt class="setAnime inView"><span>Q.03</span>見学中にスタッフへ質問することはできますか？</dt>
@@ -154,7 +154,8 @@
                                 class="anchor-vm">お電話はこちら</span>075-494-5558</a></dd>
                     <dt class="setAnime inView"><span>Q.04</span>一時退出・途中退出できますか？</dt>
                     <dd class="setAnime inView">
-                        一時退出や終了時間前の退出は可能です。<br>ただし、オートロックで施錠されますので、一時退出される場合はアプリ操作可能なスマホかタブレットをもって退出していただかないと、解錠ができなくなってしまうためご注意ください。<br>退出の際、アプリで照明・エアコンをOFFにし、展示備品をもとの位置に戻し、スリッパの整頓して頂き退出お願いいたします。
+                        一時退出や終了時間前の退出は可能です。<br>
+                        ただし、オートロックで施錠されますので、一時退出される場合はアプリ操作可能なスマホかタブレットをもって退出していただかないと、解錠ができなくなってしまうためご注意ください。
                     </dd>
                     <dt class="setAnime inView"><span>Q.05</span>モデルハウス内で飲食、喫煙、トイレ・水道の利用はできますか？</dt>
                     <dd class="setAnime inView">モデルハウス内での飲食、喫煙、トイレ・水道の利用はできませんので、あらかじめご了承ください。</dd>
